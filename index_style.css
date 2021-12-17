@@ -130,8 +130,6 @@ body{
 	background-color: rgba(25,21,50,1);
 }
 
-* {box-sizing: border-box;}
-
 .product {
   position: relative;
   width: 75%;
