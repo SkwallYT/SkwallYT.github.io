@@ -1,39 +1,42 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='UTF-8'>
-    <title>Manga-Kingdom - Accueil</title>
-    <link rel='stylesheet' href='css/index_style.css'> <!-- Github ne prend pas en compte les dossiers ! -->
-  </head>
-  <body>
-	<div class='contener'>
-		<nav>
-			<!-- Barre de navigation -->
-		  <ul>
-		<li>
-		  <a href='index.html'>Accueil</a>
-		</li>
-		<li>
-		  <a href='products.html'>Produits</a>
-		</li>
-		  </ul>	
-		</nav>
-		<div class='header-page'>
-		  <h3>Bienvenue sur</h3>
-		  <h1>Manga-Kingdom</h1>
+	<head>
+		<title>Manga-Kingdom - Accueil</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index_style.css">
+	</head>
+	<body>
+		<div class="contener">
+			<nav id='menu'>
+			  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+			  <ul>
+			    <li><a href='index.html'>Accueil</a></li>
+			    <li><a class='dropdown-arrow' href='products.html'>Produits</a>
+			      <ul class='sub-menus'>
+			        <li><a href='naruto_products.html'>Naruto</a></li>
+			        <li><a href='one_piece_products.html'>One Piece</a></li>
+			        <li><a href='dragon_ball_products.html'>Dragon Ball</a></li>
+			      </ul>
+			    </li>
+			    <li><a class='dropdown-arrow' href='support.html'>Support</a>
+			      <ul class='sub-menus'>
+			        <li><a href='contact.html'>Contact</a></li>
+			        <li><a href='reseau.html'>Réseau</a></li>
+			      </ul>
+			    </li>
+			  </ul>
+			</nav>
+			<br/>
+			<div class="header-part">
+				<div class="overlay-image">
+				  <img class="image" src="manga.jpg" alt="Alt text" />
+				  <div class="text">Bienvenue sur<br/>
+				    Manga-Kingdom</div>
+				</div>
+			</div>
+			<div class="products">
+				
+			</div>
 		</div>
-		<div class='some-products'> <!-- Permet de mettre quelques produits (ou categories) -->
-		<!-- A aligner ! -->
-			<div class='product-one'>
-			
-			</div>
-			<div class='product-two'>
-			
-			</div>
-			<div class='product-three'>
-			
-			</div>
-		</div>
-	</div>
-  </body> 
+	</body>
 </html>
-
