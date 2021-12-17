@@ -150,13 +150,14 @@ body{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 100%;
+  width: 87.5%;
   transition: .5s ease;
   opacity:0.5;
   color: white;
   font-size: 16px;
   padding: 20px;
   text-align: center;
+  border-radius: 5px;
 }
 
 .product:hover .text2 {
